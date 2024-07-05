@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+    width: 80%;
+}
+
+.logo h4 {
+    font-size: 26px;
+}
+
+.logo p {
+    color: #C5C5C5;
+    font-size: 20px;
+}
+
+.logo img {
+    margin: 0 auto;
+    width: 80px;
+}
+
+.mode {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+
+    .main {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin: 0 auto;
+        width: 20%
+    }
+}

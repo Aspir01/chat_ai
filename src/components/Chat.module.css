@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block {
+    margin: 10px 0;
+    display: flex;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.block img {
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.block2 img {
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.block p {
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.block2 p {
+    font-size: 20px;
+    background-color: #DBEDFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+
+    .block p {
+        width: 250px;
+    }
+
+    .block2 p {
+        width: 300px;
+    }
+}

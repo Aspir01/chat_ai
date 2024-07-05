@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.main svg {
+    width: 50px;
+    height: 50px;
+}
+
+.main input {
+    width: 100%;
+    margin-left: 30px;
+    padding: 20px 50px 20px 20px;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 1px solid #848484;
+}
+
+.file {
+    left: 72px;
+    width: 700px;
+    color: #C5C5C5;
+    position: relative;
+    bottom: 110px;
+}
+
+.file span {
+    color: #017CFA;
+    font-size: 14px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #DBEDFF;
+}
+
+.main svg {
+    cursor: pointer;
+}
+
+.send {
+    right: 50px;
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b9ccc;
+    font-size: 20px;
+    width: 230px;
+}
